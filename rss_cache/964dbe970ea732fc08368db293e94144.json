@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Rolling the Dice with CSS random()",
+    "link": "https://webkit.org/blog/17285/rolling-the-dice-with-css-random/",
+    "description": "Random functions in programming languages are amazing.",
+    "published": "Thu, 21 Aug 2025 19:02:33 +0000",
+    "published_timestamp": 1755802953,
+    "feed_name": "WebKit Blog"
+  },
+  {
+    "title": "Release Notes for Safari Technology Preview 226",
+    "link": "https://webkit.org/blog/17282/release-notes-for-safari-technology-preview-226/",
+    "description": "Safari Technology Preview Release 226 is now available for download for macOS Tahoe and macOS Sequoia.",
+    "published": "Thu, 21 Aug 2025 00:21:50 +0000",
+    "published_timestamp": 1755735710,
+    "feed_name": "WebKit Blog"
+  },
+  {
+    "title": "A gentle introduction to anchor positioning",
+    "link": "https://webkit.org/blog/17240/a-gentle-introduction-to-anchor-positioning/",
+    "description": "Anchor positioning allows you to place an element on the page based on where another element is.",
+    "published": "Tue, 12 Aug 2025 22:09:02 +0000",
+    "published_timestamp": 1755036542,
+    "feed_name": "WebKit Blog"
+  },
+  {
+    "title": "Item Flow – Part 2: next steps for Masonry",
+    "link": "https://webkit.org/blog/17219/item-flow-part-2-next-steps-for-masonry/",
+    "description": "Back in March, we published Item Flow, Part 1: a new unified concept for layout, an article about a new idea for unifying flex-flow and grid-auto-flow into a single set of properties under a new item-flow shorthand.",
+    "published": "Fri, 08 Aug 2025 01:57:46 +0000",
+    "published_timestamp": 1754618266,
+    "feed_name": "WebKit Blog"
+  },
+  {
+    "title": "Release Notes for Safari Technology Preview 225",
+    "link": "https://webkit.org/blog/17216/release-notes-for-safari-technology-preview-225/",
+    "description": "Safari Technology Preview Release 225 is now available for download for macOS Tahoe and macOS Sequoia.",
+    "published": "Wed, 06 Aug 2025 22:19:52 +0000",
+    "published_timestamp": 1754518792,
+    "feed_name": "WebKit Blog"
+  },
+  {
+    "title": "Release Notes for Safari Technology Preview 224",
+    "link": "https://webkit.org/blog/17210/release-notes-for-safari-technology-preview-224/",
+    "description": "Safari Technology Preview Release 224 is now available for download for macOS Tahoe and macOS Sequoia.",
+    "published": "Wed, 23 Jul 2025 21:00:16 +0000",
+    "published_timestamp": 1753304416,
+    "feed_name": "WebKit Blog"
+  },
+  {
+    "title": "So many ranges, so little time: A cheatsheet of animation-ranges for your next scroll-driven animation",
+    "link": "https://webkit.org/blog/17184/so-many-ranges-so-little-time-a-cheatsheet-of-animation-ranges-for-your-next-scroll-driven-animation/",
+    "description": "Background If you’re new to scroll-driven animations, welcome!",
+    "published": "Wed, 09 Jul 2025 23:25:38 +0000",
+    "published_timestamp": 1752103538,
+    "feed_name": "WebKit Blog"
+  },
+  {
+    "title": "Release Notes for Safari Technology Preview 223",
+    "link": "https://webkit.org/blog/17201/release-notes-for-safari-technology-preview-223/",
+    "description": "Safari Technology Preview Release 223 is now available for download for macOS Tahoe and macOS Sequoia.",
+    "published": "Wed, 09 Jul 2025 21:30:24 +0000",
+    "published_timestamp": 1752096624,
+    "feed_name": "WebKit Blog"
+  },
+  {
+    "title": "Release Notes for Safari Technology Preview 222",
+    "link": "https://webkit.org/blog/17181/release-notes-for-safari-technology-preview-222/",
+    "description": "Safari Technology Preview Release 222 is now available for download for macOS Tahoe and macOS Sequoia.",
+    "published": "Tue, 01 Jul 2025 18:21:08 +0000",
+    "published_timestamp": 1751394068,
+    "feed_name": "WebKit Blog"
+  },
+  {
+    "title": "A step into the spatial web: The HTML model element in Apple Vision Pro",
+    "link": "https://webkit.org/blog/17118/a-step-into-the-spatial-web-the-html-model-element-in-apple-vision-pro/",
+    "description": "visionOS 26 brings a major update to an important building block for the spatial web: The HTML model element is enabled by default, with a new API that’s ready to use today.",
+    "published": "Fri, 27 Jun 2025 00:00:47 +0000",
+    "published_timestamp": 1750982447,
+    "feed_name": "WebKit Blog"
+  }
+]

@@ -1,0 +1,402 @@
+[
+  {
+    "title": "Issue 724",
+    "link": "https://iosdevweekly.com/issues/724/",
+    "description": "Have we seen the last changes to Xcode 26 before the public release? I think we have now!",
+    "published": "Fri, 29 Aug 2025 00:00:00 GMT",
+    "published_timestamp": 1756425600,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 723",
+    "link": "https://iosdevweekly.com/issues/723/",
+    "description": "What is Apple not saying about Liquid Glass? 🧊",
+    "published": "Fri, 22 Aug 2025 00:00:00 GMT",
+    "published_timestamp": 1755820800,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 722",
+    "link": "https://iosdevweekly.com/issues/722/",
+    "description": "What does Seb Vidal’s post tell us about the future of UIKit? 🤔",
+    "published": "Fri, 15 Aug 2025 00:00:00 GMT",
+    "published_timestamp": 1755216000,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 721",
+    "link": "https://iosdevweekly.com/issues/721/",
+    "description": "At what point does something become “written by an LLM”? 🤖",
+    "published": "Fri, 08 Aug 2025 00:00:00 GMT",
+    "published_timestamp": 1754611200,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 720",
+    "link": "https://iosdevweekly.com/issues/720/",
+    "description": "We’ll see accessibility “nutrition labels” on App Store listings in a few months, but will we see more in the future?",
+    "published": "Fri, 01 Aug 2025 00:00:00 GMT",
+    "published_timestamp": 1754006400,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 719",
+    "link": "https://iosdevweekly.com/issues/719/",
+    "description": "What is the Foundation Model good at, and how does it compare to the alternatives?",
+    "published": "Fri, 25 Jul 2025 00:00:00 GMT",
+    "published_timestamp": 1753401600,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 718",
+    "link": "https://iosdevweekly.com/issues/718/",
+    "description": "Are you using the Foundation Model APIs yet? Let me know what you’re doing with them! 🤖",
+    "published": "Fri, 18 Jul 2025 00:00:00 GMT",
+    "published_timestamp": 1752796800,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 717",
+    "link": "https://iosdevweekly.com/issues/717/",
+    "description": "Are you looking at tiers or are you in tears? 😂",
+    "published": "Fri, 11 Jul 2025 00:00:00 GMT",
+    "published_timestamp": 1752192000,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 716",
+    "link": "https://iosdevweekly.com/issues/716/",
+    "description": "Where does Xcode 26’s “coding assistant” fit in with the AI-assisted tools from other providers? 🤖",
+    "published": "Fri, 27 Jun 2025 00:00:00 GMT",
+    "published_timestamp": 1750982400,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 715",
+    "link": "https://iosdevweekly.com/issues/715/",
+    "description": "We might not be aiming for world domination anymore, but we should be looking to broaden our horizons. 🌄",
+    "published": "Fri, 20 Jun 2025 00:00:00 GMT",
+    "published_timestamp": 1750377600,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 714",
+    "link": "https://iosdevweekly.com/issues/714/",
+    "description": "Is your iPhone leaking? It must be all the Liquid Glass it now contains. 🧊",
+    "published": "Fri, 13 Jun 2025 00:00:00 GMT",
+    "published_timestamp": 1749772800,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 713",
+    "link": "https://iosdevweekly.com/issues/713/",
+    "description": "It’s almost time for WWDC! 🚀🎉❤️ Is this going to be a big year, or a small one?",
+    "published": "Fri, 06 Jun 2025 00:00:00 GMT",
+    "published_timestamp": 1749168000,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 712",
+    "link": "https://iosdevweekly.com/issues/712/",
+    "description": "Something different this week, an issue curated by the winners of the Swift Student Challenge! 🧑‍🎓",
+    "published": "Fri, 16 May 2025 00:00:00 GMT",
+    "published_timestamp": 1747353600,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 711",
+    "link": "https://iosdevweekly.com/issues/711/",
+    "description": "Are you ready to drink from the firehose? 🚀",
+    "published": "Fri, 09 May 2025 00:00:00 GMT",
+    "published_timestamp": 1746748800,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 710",
+    "link": "https://iosdevweekly.com/issues/710/",
+    "description": "Was there any big news yesterday? I didn’t notice any, did you? 😂",
+    "published": "Fri, 02 May 2025 00:00:00 GMT",
+    "published_timestamp": 1746144000,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 709",
+    "link": "https://iosdevweekly.com/issues/709/",
+    "description": "What cost progress, and how fast should you follow? 🤔",
+    "published": "Fri, 25 Apr 2025 00:00:00 GMT",
+    "published_timestamp": 1745539200,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 708",
+    "link": "https://iosdevweekly.com/issues/708/",
+    "description": "What has the App Store become? I’m grateful to all of you trying to make it a better place! 🏝️",
+    "published": "Fri, 18 Apr 2025 00:00:00 GMT",
+    "published_timestamp": 1744934400,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 707",
+    "link": "https://iosdevweekly.com/issues/707/",
+    "description": "Can you remember a time before Git? 📜",
+    "published": "Fri, 11 Apr 2025 00:00:00 GMT",
+    "published_timestamp": 1744329600,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 706",
+    "link": "https://iosdevweekly.com/issues/706/",
+    "description": "Swift Assist and the state of the art in AI coding tools 🤖",
+    "published": "Fri, 04 Apr 2025 00:00:00 GMT",
+    "published_timestamp": 1743724800,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 705",
+    "link": "https://iosdevweekly.com/issues/705/",
+    "description": "It’s that time of year again! Give me a W, give me a W, give me a D, give me a C!",
+    "published": "Fri, 28 Mar 2025 00:00:00 GMT",
+    "published_timestamp": 1743120000,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 704",
+    "link": "https://iosdevweekly.com/issues/704/",
+    "description": "How do you think about choosing package dependencies? Do you have any hard “No”’s?",
+    "published": "Fri, 21 Mar 2025 00:00:00 GMT",
+    "published_timestamp": 1742515200,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 703",
+    "link": "https://iosdevweekly.com/issues/703/",
+    "description": "Running a great technical blog for a company is hard. How do you do it well? 🤔",
+    "published": "Fri, 14 Mar 2025 00:00:00 GMT",
+    "published_timestamp": 1741910400,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 702",
+    "link": "https://iosdevweekly.com/issues/702/",
+    "description": "Get a preview of an API that is likely to be announced at this year’s WWDC. 🚸",
+    "published": "Fri, 07 Mar 2025 00:00:00 GMT",
+    "published_timestamp": 1741305600,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 701",
+    "link": "https://iosdevweekly.com/issues/701/",
+    "description": "What does Dave write about when he has a fever? 🤒 Let’s find out!",
+    "published": "Fri, 28 Feb 2025 00:00:00 GMT",
+    "published_timestamp": 1740700800,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 700",
+    "link": "https://iosdevweekly.com/issues/700/",
+    "description": "It’s Issue 700, and I wish I had something different to talk about this week.",
+    "published": "Fri, 21 Feb 2025 00:00:00 GMT",
+    "published_timestamp": 1740096000,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 699",
+    "link": "https://iosdevweekly.com/issues/699/",
+    "description": "Are all the rules and regulations getting you down, too? 😫",
+    "published": "Fri, 14 Feb 2025 00:00:00 GMT",
+    "published_timestamp": 1739491200,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 698",
+    "link": "https://iosdevweekly.com/issues/698/",
+    "description": "Swift Playgrounds becomes Swift Playground, but does it have enough toys to play with? 🪆",
+    "published": "Fri, 07 Feb 2025 00:00:00 GMT",
+    "published_timestamp": 1738886400,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 697",
+    "link": "https://iosdevweekly.com/issues/697/",
+    "description": "Have I been thinking about Xcode on iPad all wrong? 🤔",
+    "published": "Fri, 31 Jan 2025 00:00:00 GMT",
+    "published_timestamp": 1738281600,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 696",
+    "link": "https://iosdevweekly.com/issues/696/",
+    "description": "Is it finally time to use a SwiftPM package registry? 📦",
+    "published": "Fri, 24 Jan 2025 00:00:00 GMT",
+    "published_timestamp": 1737676800,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 695",
+    "link": "https://iosdevweekly.com/issues/695/",
+    "description": "We’re still at the very beginning of what we can do with visionOS. Will TabletopKit give us shared experiences? 🃏",
+    "published": "Fri, 17 Jan 2025 00:00:00 GMT",
+    "published_timestamp": 1737072000,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 694",
+    "link": "https://iosdevweekly.com/issues/694/",
+    "description": "Hopefully you won’t see that much difference with receiving this issue, but it’s ALL CHANGED behind the scenes! 😱",
+    "published": "Fri, 10 Jan 2025 00:00:00 GMT",
+    "published_timestamp": 1736467200,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 693",
+    "link": "https://iosdevweekly.com/issues/693/",
+    "description": "Happy New Year, and here’s to a cracking 2025! 🎊",
+    "published": "Fri, 03 Jan 2025 00:00:00 GMT",
+    "published_timestamp": 1735862400,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 692",
+    "link": "https://iosdevweekly.com/issues/692/",
+    "description": "How do we wrap up the year? With the “Best of And Finally…”, of course! 📅",
+    "published": "Fri, 20 Dec 2024 00:00:00 GMT",
+    "published_timestamp": 1734652800,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 691",
+    "link": "https://iosdevweekly.com/issues/691/",
+    "description": "Can Swift, C/C++, Linux, Android, Dart, and Flutter all work together? They can! 🤖",
+    "published": "Fri, 13 Dec 2024 00:00:00 GMT",
+    "published_timestamp": 1734048000,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 690",
+    "link": "https://iosdevweekly.com/issues/690/",
+    "description": "Where is the Swift and Apple platform social media community these days? Scattered, but still there! 📱",
+    "published": "Fri, 06 Dec 2024 00:00:00 GMT",
+    "published_timestamp": 1733443200,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 689",
+    "link": "https://iosdevweekly.com/issues/689/",
+    "description": "I tried two new (ish) AI coding tools this week. What did I think? 🤔",
+    "published": "Fri, 29 Nov 2024 00:00:00 GMT",
+    "published_timestamp": 1732838400,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 688",
+    "link": "https://iosdevweekly.com/issues/688/",
+    "description": "How do you get an app featured on the App Store? There's a new process, and it's great! 📝",
+    "published": "Fri, 22 Nov 2024 00:00:00 GMT",
+    "published_timestamp": 1732233600,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 687",
+    "link": "https://iosdevweekly.com/issues/687/",
+    "description": "It's not all as bad as you think it is! 🙏",
+    "published": "Fri, 15 Nov 2024 00:00:00 GMT",
+    "published_timestamp": 1731628800,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 686",
+    "link": "https://iosdevweekly.com/issues/686/",
+    "description": "Copilot vs Xcode Predictive Code Completion: Is the playing field level now? 🤖",
+    "published": "Fri, 08 Nov 2024 00:00:00 GMT",
+    "published_timestamp": 1731024000,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 685",
+    "link": "https://iosdevweekly.com/issues/685/",
+    "description": "Something a bit different this week. What do you all hope for from WWDC2025? 🚀",
+    "published": "Fri, 01 Nov 2024 00:00:00 GMT",
+    "published_timestamp": 1730419200,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 684",
+    "link": "https://iosdevweekly.com/issues/684/",
+    "description": "What are you hoping for from WWDC 2025? Let me know and get quoted in next week's issue. ✌️",
+    "published": "Fri, 25 Oct 2024 00:00:00 GMT",
+    "published_timestamp": 1729814400,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 683",
+    "link": "https://iosdevweekly.com/issues/683/",
+    "description": "Mac has issued a salutation, Cancel or Allow? 🔐",
+    "published": "Fri, 18 Oct 2024 00:00:00 GMT",
+    "published_timestamp": 1729209600,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 682",
+    "link": "https://iosdevweekly.com/issues/682/",
+    "description": "Did a Swift code formatting standard we can all get behind just get one step closer with Xcode 16? 🤞",
+    "published": "Fri, 11 Oct 2024 00:00:00 GMT",
+    "published_timestamp": 1728604800,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 681",
+    "link": "https://iosdevweekly.com/issues/681/",
+    "description": "Back to our regular scheduled programming this week! ⌚",
+    "published": "Fri, 04 Oct 2024 00:00:00 GMT",
+    "published_timestamp": 1728000000,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 680",
+    "link": "https://iosdevweekly.com/issues/680/",
+    "description": "What day is it? I'm confused... 😂",
+    "published": "Mon, 30 Sep 2024 00:00:00 GMT",
+    "published_timestamp": 1727654400,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 679",
+    "link": "https://iosdevweekly.com/issues/679/",
+    "description": "Did you get a box with a shiny new device in it today? 📱",
+    "published": "Fri, 20 Sep 2024 00:00:00 GMT",
+    "published_timestamp": 1726790400,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 678",
+    "link": "https://iosdevweekly.com/issues/678/",
+    "description": "What was the original idea behind iPhone Mirroring in iOS 18 and macOS Sequoia? 💡",
+    "published": "Fri, 13 Sep 2024 00:00:00 GMT",
+    "published_timestamp": 1726185600,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 677",
+    "link": "https://iosdevweekly.com/issues/677/",
+    "description": "Did I let Xcode's predictive code completion write any of the text in this newsletter? 🤖",
+    "published": "Fri, 06 Sep 2024 00:00:00 GMT",
+    "published_timestamp": 1725580800,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 676",
+    "link": "https://iosdevweekly.com/issues/676/",
+    "description": "What's happening with CocoaPods these days? It's time for an update from the team.",
+    "published": "Fri, 30 Aug 2024 00:00:00 GMT",
+    "published_timestamp": 1724976000,
+    "feed_name": "iOS Dev Weekly"
+  },
+  {
+    "title": "Issue 675",
+    "link": "https://iosdevweekly.com/issues/675/",
+    "description": "Will there be two app stores and two app store teams? 🔄",
+    "published": "Fri, 23 Aug 2024 00:00:00 GMT",
+    "published_timestamp": 1724371200,
+    "feed_name": "iOS Dev Weekly"
+  }
+]

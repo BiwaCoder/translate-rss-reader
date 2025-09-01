@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://blog.unity.com/feed",
+    "name": "Unity Blog"
+  },
+  {
+    "url": "https://developer.apple.com/news/rss/news.rss",
+    "name": "Apple Developer News"
+  },
+  {
+    "url": "https://iosdevweekly.com/issues.rss",
+    "name": "iOS Dev Weekly"
+  },
+  {
+    "url": "https://androidweekly.net/rss",
+    "name": "Android Weekly"
+  },
+  {
+    "url": "https://android-developers.googleblog.com/feeds/posts/default",
+    "name": "Android Developers Blog"
+  },
+  {
+    "url": "https://feeds.feedburner.com/blogspot/hsDu",
+    "name": "Android Developers 公式ブログ"
+  },
+  {
+    "url": "https://androidstudio.googleblog.com/feeds/posts/default",
+    "name": "Android Studio リリース更新"
+  },
+  {
+    "url": "https://developer.android.com/feeds/androidx-release-notes.xml",
+    "name": "AndroidX ライブラリリリース"
+  },
+  {
+    "url": "https://developer.apple.com/news/releases/rss/releases.rss",
+    "name": "Apple Developer リリース"
+  },
+  {
+    "url": "https://webkit.org/blog/feed/",
+    "name": "WebKit Blog"
+  },
+  {
+    "url": "https://unity3d.com/unity/releases.xml",
+    "name": "Unity 全リリース"
+  },
+  {
+    "url": "https://unity3d.com/unity/lts-releases.xml",
+    "name": "Unity LTS リリース"
+  },
+  {
+    "url": "https://unity3d.com/unity/qa/patch-releases/latest.xml",
+    "name": "Unity パッチリリース"
+  },
+  {
+    "url": "https://unity.com/releases/editor/beta-releases.xml",
+    "name": "Unity ベータリリース"
+  }
+]

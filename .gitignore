@@ -39,6 +39,7 @@ Thumbs.db
 rss_cache/
 translation_cache.json
 settings.json
+*.html
 
 # API Keys
 .env

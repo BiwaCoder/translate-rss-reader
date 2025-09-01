@@ -280,6 +280,180 @@ class RSSReader:
             self.show_list()
         else:
             print("最初のページです")
+    
+    def generate_html(self, output_file: str = "rss_articles.html"):
+        if not self.all_items:
+            self.fetch_all_items()
+        
+        html_content = self.create_html_template()
+        
+        with open(output_file, 'w', encoding='utf-8') as f:
+            f.write(html_content)
+        
+        print(f"HTML ファイルを生成しました: {output_file}")
+    
+    def create_html_template(self) -> str:
+        translation_enabled = self.rss_manager.settings.get("translation_enabled", False)
+        articles_html = ""
+        
+        for i, item in enumerate(self.all_items):
+            title = item['title']
+            description = item.get('description', '')
+            
+            if translation_enabled:
+                title_ja = self.rss_manager.translator.translate_text(title)
+                description_ja = self.rss_manager.translator.translate_text(description) if description else ""
+                
+                articles_html += f"""
+                <div class="article">
+                    <h2><a href="{item['link']}" target="_blank">{title_ja}</a></h2>
+                    <div class="meta">
+                        <span class="feed">[{item['feed_name']}]</span>
+                        <span class="date">{item['published']}</span>
+                    </div>
+                    <div class="content">
+                        <div class="original">
+                            <h4>原文:</h4>
+                            <p><strong>{title}</strong></p>
+                            <p>{description}</p>
+                        </div>
+                        <div class="translation">
+                            <h4>翻訳:</h4>
+                            <p>{description_ja}</p>
+                        </div>
+                    </div>
+                </div>
+                """
+            else:
+                articles_html += f"""
+                <div class="article">
+                    <h2><a href="{item['link']}" target="_blank">{title}</a></h2>
+                    <div class="meta">
+                        <span class="feed">[{item['feed_name']}]</span>
+                        <span class="date">{item['published']}</span>
+                    </div>
+                    <div class="content">
+                        <p>{description}</p>
+                    </div>
+                </div>
+                """
+        
+        return f"""
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSS記事一覧</title>
+    <style>
+        body {{
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+        }}
+        .header {{
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }}
+        .article {{
+            background: white;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }}
+        .article h2 {{
+            margin-top: 0;
+            color: #333;
+        }}
+        .article h2 a {{
+            text-decoration: none;
+            color: #007acc;
+        }}
+        .article h2 a:hover {{
+            text-decoration: underline;
+        }}
+        .meta {{
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 15px;
+        }}
+        .feed {{
+            background: #007acc;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 4px;
+            margin-right: 10px;
+        }}
+        .content {{
+            color: #444;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }}
+        .content img {{
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            margin: 10px 0;
+        }}
+        .content pre, .content code {{
+            max-width: 100%;
+            overflow-x: auto;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }}
+        .original, .translation {{
+            margin: 10px 0;
+            padding: 10px;
+            border-left: 3px solid #ddd;
+        }}
+        .original {{
+            background: #f9f9f9;
+            border-left-color: #999;
+        }}
+        .translation {{
+            background: #f0f8ff;
+            border-left-color: #007acc;
+        }}
+        .original h4, .translation h4 {{
+            margin: 0 0 10px 0;
+            font-size: 0.9em;
+            color: #666;
+        }}
+        .footer {{
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #666;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>RSS記事一覧</h1>
+        <p>生成日時: {datetime.now().strftime('%Y年%m月%d日 %H:%M:%S')}</p>
+        <p>総記事数: {len(self.all_items)}件</p>
+    </div>
+    
+    {articles_html}
+    
+    <div class="footer">
+        <p>RSS Reader with AI Translation</p>
+        <p>Generated by Claude Code</p>
+    </div>
+</body>
+</html>
+        """
 
 def main_menu(rss_manager: RSSManager):
     translation_status = "ON" if rss_manager.settings.get("translation_enabled", False) else "OFF"
@@ -290,7 +464,8 @@ def main_menu(rss_manager: RSSManager):
     print("4. フィード削除")
     print("5. フィード編集")
     print(f"6. 翻訳切り替え (現在: {translation_status})")
-    print("7. 終了")
+    print("7. HTML出力")
+    print("8. 終了")
 
 def main():
     rss_manager = RSSManager()
@@ -299,7 +474,7 @@ def main():
     while True:
         try:
             main_menu(rss_manager)
-            choice = input("\n選択してください (1-7): ").strip()
+            choice = input("\n選択してください (1-8): ").strip()
             
             if choice == "1":
                 rss_manager.list_feeds()
@@ -361,6 +536,10 @@ def main():
                 rss_manager.toggle_translation()
             
             elif choice == "7":
+                print("HTML生成中...")
+                rss_reader.generate_html()
+            
+            elif choice == "8":
                 print("終了します")
                 break
             
